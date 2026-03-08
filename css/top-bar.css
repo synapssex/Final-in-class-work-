@@ -1,0 +1,144 @@
+  /*Top bar*/
+  body {
+
+    margin: 0;
+  }
+
+
+  .top-bar {
+    background-color: #293132;
+    padding: 15px;
+      position:sticky;
+    top:0;
+/*pading is the space between the content elemnet and it's border*/
+  }
+
+  .top-bar a {
+  
+    z-index: 1000;
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    font-weight: bold;
+  }
+
+  /*Bg color*/
+  body {
+    background-color: #E8F0FF;
+    color: #000000;
+  }
+
+  /*fix margin*/
+  .content {
+    padding: 10px;
+    max-width: 1000px;
+    margin: 0;
+  }
+
+  /*Fonts and text size*/
+
+
+  p {
+    font-size: 19px;
+
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+  /*sig JP*/
+  h3 {
+    font-size: 20px;
+  }
+
+  body {
+    font-family: 'Merriweather', serif;
+    font-size: 1rem;
+  }
+  /*grid /hover*/
+ .gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.gallery img {
+    width: 100%;
+    border-radius: 10px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+  footer{
+    text-align: center;
+    padding: 1px;
+    background-color: #293132;
+    color: aliceblue;
+    margin-top: 500px; 
+    /* anthing over 417px*/
+  }
+  /*Music*/
+  .content{
+    padding: 30px;
+    max-width: 900px;
+    margin: auto;
+  }
+  .song{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+     box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  }
+  .song h3 {
+    margin-top: 0;
+}
+
+audio {
+    width: 100%;
+}
+ .abook{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+     box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  }
+  .abook h3 {
+    margin-top: 0;
+}
+
+audio {
+    width: 100%;
+}
+/*Video*/
+.vedio {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.movie {
+    width: 320px;
+}
+
+p {
+    margin-bottom: 20px;
+}
+.video-grid {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.movie-card {
+    transition: transform 0.3s ease;
+}
+
+.movie-card:hover {
+    transform: scale(1.1);
+}
